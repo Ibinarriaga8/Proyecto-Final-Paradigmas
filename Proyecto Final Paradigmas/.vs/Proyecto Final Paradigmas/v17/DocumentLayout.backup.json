@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|c:\\users\\jorge\\localrepositories\\proyecto-final-paradigmas\\proyecto final paradigmas\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|c:\\users\\jorge\\localrepositories\\proyecto-final-paradigmas\\proyecto final paradigmas\\assets\\packages\\simplepeople\\citypeoplelite\\demo_scenes\\scripts\\citypeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\packages\\simplepeople\\citypeoplelite\\demo_scenes\\scripts\\citypeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\CarController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CarController.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\CarController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T10:41:59.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CityPeople.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Packages\\SimplePeople\\CityPeopleLite\\Demo_Scenes\\Scripts\\CityPeople.cs",
+              "RelativeDocumentMoniker": "Assets\\Packages\\SimplePeople\\CityPeopleLite\\Demo_Scenes\\Scripts\\CityPeople.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Packages\\SimplePeople\\CityPeopleLite\\Demo_Scenes\\Scripts\\CityPeople.cs",
+              "RelativeToolTip": "Assets\\Packages\\SimplePeople\\CityPeopleLite\\Demo_Scenes\\Scripts\\CityPeople.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:59:35.206Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
