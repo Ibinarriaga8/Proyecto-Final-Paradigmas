@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarController : MonoBehaviour
+public class RaceCar : MonoBehaviour
 {
     public float horizontalInput, verticalInput;
     public float currentSteerAngle, currentbreakForce;
