@@ -19,6 +19,7 @@ public class Fence : PhysicalObstacle
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            Debug.Log("Player collided with Fence!");
             ApplyEffect(collision.gameObject);
         }
     }

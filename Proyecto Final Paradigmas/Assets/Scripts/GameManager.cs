@@ -10,7 +10,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private const int maxLevel = 5; // Nivel máximo
     [SerializeField] private Transform spawnPosition; // Posición de spawn del jugador
     [SerializeField] private GameObject player;
-
+    private List<PoliceCar> policeCars = new List<PoliceCar>();
+    bool levelFirstTime = true;
+    //Posición de spawn Police
+    [SerializeField] private List<Transform> policeSpawnPositions;
 
     private void OnEnable()
     {
@@ -30,19 +33,23 @@ public class GameManager : MonoBehaviour
         Debug.Log($"Cargando Nivel {level}");
 
 
-
-        ClearEnemies(); // Eliminar enemigos previos
-
         if (level <= maxLevel)
         {
 
             ResetPlayer();
-            SpawnEnemies(level);
+            if (level > 1)
+            {
+                ResetEnemies();
+                if (levelFirstTime)
+                    SpawnEnemies(level);
+                
+            }
         }
         else
         {
             HandleWin();
         }
+        levelFirstTime = false;
     }
 
     private void ResetPlayer()
@@ -81,6 +88,7 @@ public class GameManager : MonoBehaviour
     private void HandleTargetReached()
     {
         Debug.Log($"¡Nivel {currentLevel} completado!");
+        levelFirstTime = true;
 
         currentLevel++;
 
@@ -103,11 +111,19 @@ public class GameManager : MonoBehaviour
     private void SpawnEnemies(int level)
     {
         Debug.Log($"Spawning enemies for level {level}");
+
+        //Spawn corresponging police car for each level
+        PoliceCar policeCar = PoliceCarFactory.Instance.SpawnObstacle(policeSpawnPositions[level - 2].position) as PoliceCar;
+        policeCars.Add(policeCar);
+        
     }
 
-    private void ClearEnemies()
+    private void ResetEnemies()
     {
-        Debug.Log("Clearing enemies...");
+        for (int i = 0; i < policeCars.Count; i++)
+        {
+            policeCars[i].transform.position = policeSpawnPositions[i].position;
+        }
     }
 
     /// <summary>
