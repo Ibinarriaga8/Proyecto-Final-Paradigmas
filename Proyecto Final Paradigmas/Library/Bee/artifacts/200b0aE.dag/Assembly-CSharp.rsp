@@ -363,6 +363,7 @@
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/Fence.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/HeartManager.cs"
 "Assets/Scripts/LifeBarManager.cs"
 "Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/PlayerHealth.cs"

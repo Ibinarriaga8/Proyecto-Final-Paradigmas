@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform spawnPosition; // Posición de spawn del jugador
     [SerializeField] private GameObject player;
     [SerializeField] private StarsManager starsManager;
-    //[SerializeField] private HeartManager heartManager;
+    [SerializeField] private HeartManager heartManager;
 
 
     private void OnEnable()
@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
         RaceCarTarget.onTargetReached += HandleTargetReached;
         PlayerHealth.onPlayerDeath += RaceCar_onPlayerDeath;
         starsManager.SetLevel(currentLevel);
-        //heartManager.UpdateHearts(maxLives);
+        heartManager.UpdateHearts(maxLives);
     }
 
     private void OnDisable()
