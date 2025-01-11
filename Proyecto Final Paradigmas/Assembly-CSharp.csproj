@@ -65,6 +65,7 @@
     <Compile Include="Assets/Scripts/RaceCarTarget.cs" />
     <Compile Include="Assets/Scripts/CarController.cs" />
     <Compile Include="Assets/Scripts/Fence.cs" />
+    <Compile Include="Assets/Scripts/LifeBarManager.cs" />
     <Compile Include="Assets/Packages/SimplePoly - Town Pack/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs" />
     <Compile Include="Assets/Packages/SimplePeople/CityPeopleLite/Demo_Scenes/Scripts/CityPeople.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />

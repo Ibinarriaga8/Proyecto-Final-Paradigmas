@@ -8,9 +8,12 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private int currentLevel = 1; // Nivel actual
     [SerializeField] private const int maxLevel = 5; // Nivel máximo
+    [SerializeField] private int maxLives = 10; // Vidas máximas
+
     [SerializeField] private Transform spawnPosition; // Posición de spawn del jugador
     [SerializeField] private GameObject player;
     [SerializeField] private StarsManager starsManager;
+    //[SerializeField] private HeartManager heartManager;
 
 
     private void OnEnable()
@@ -18,6 +21,7 @@ public class GameManager : MonoBehaviour
         RaceCarTarget.onTargetReached += HandleTargetReached;
         PlayerHealth.onPlayerDeath += RaceCar_onPlayerDeath;
         starsManager.SetLevel(currentLevel);
+        //heartManager.UpdateHearts(maxLives);
     }
 
     private void OnDisable()

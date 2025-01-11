@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using System;
 
 public class PoliceCar : PhysicalObstacle
 {
@@ -20,13 +21,14 @@ public class PoliceCar : PhysicalObstacle
     // Update is called once per frame
     void Update()
     {
-        agent.destination = player.position; //cada frame buscamos la posición del jugador
+        agent.destination = player.position; //cada frame buscamos la posiciï¿½n del jugador
 
     }
 
     public override void ApplyEffect(GameObject player)
     {
         player.GetComponent<PlayerHealth>().TakeDamage(obstacleDamage);
+        Debug.Log("ME HAN CHOCADO");
     }
 
     public override void OnCollisionEnter(Collision collision)
