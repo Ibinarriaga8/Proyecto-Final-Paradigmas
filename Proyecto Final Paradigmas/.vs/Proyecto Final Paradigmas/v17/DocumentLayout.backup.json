@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\assets\\scripts\\concreteobstacles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\concreteobstacles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|c:\\users\\jorge\\localrepositories\\proyecto-final-paradigmas\\proyecto final paradigmas\\assets\\scripts\\fence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|c:\\users\\jorge\\localrepositories\\proyecto-final-paradigmas\\proyecto final paradigmas\\assets\\scripts\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\assets\\scripts\\racecartarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\racecartarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\assets\\packages\\simplepeople\\citypeoplelite\\demo_scenes\\scripts\\citypeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\packages\\simplepeople\\citypeoplelite\\demo_scenes\\scripts\\citypeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BCD55-790C-2128-863F-66C9D5FBFB5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fence.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\Fence.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fence.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\Fence.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fence.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T10:34:17.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConcreteObstacles.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\ConcreteObstacles.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ConcreteObstacles.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\ConcreteObstacles.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ConcreteObstacles.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T10:10:19.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacle.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Obstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T08:51:12.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T08:07:43.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:25:07.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RaceCarTarget.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\RaceCarTarget.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RaceCarTarget.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\RaceCarTarget.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RaceCarTarget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:33:29.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PoliceCar.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\PoliceCar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PoliceCar.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\PoliceCar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PoliceCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T18:54:32.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T10:42:17.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\CarController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CarController.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Scripts\\CarController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T10:41:59.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CityPeople.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Packages\\SimplePeople\\CityPeopleLite\\Demo_Scenes\\Scripts\\CityPeople.cs",
+              "RelativeDocumentMoniker": "Assets\\Packages\\SimplePeople\\CityPeopleLite\\Demo_Scenes\\Scripts\\CityPeople.cs",
+              "ToolTip": "C:\\Users\\jorge\\LocalRepositories\\Proyecto-Final-Paradigmas\\Proyecto Final Paradigmas\\Assets\\Packages\\SimplePeople\\CityPeopleLite\\Demo_Scenes\\Scripts\\CityPeople.cs",
+              "RelativeToolTip": "Assets\\Packages\\SimplePeople\\CityPeopleLite\\Demo_Scenes\\Scripts\\CityPeople.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:59:35.206Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
