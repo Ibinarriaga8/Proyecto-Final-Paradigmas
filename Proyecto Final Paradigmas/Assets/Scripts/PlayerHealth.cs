@@ -9,22 +9,19 @@ public class PlayerHealth : MonoBehaviour
 
     private const int maxHealth = 100;
     [SerializeField] private int health;
+    public int Health { get => health; set { health = value; }  }
 
     public static event Action onPlayerDeath;
     public void ResetHealth()
     {
         health = maxHealth;
     }
-
-    private void OnCollisionEnter(Collision collision)
+    public void TakeDamage(int damage)
     {
-        if (collision.gameObject.CompareTag("Police"))
+        health -= damage;
+        if (health <= 0)
         {
-            health -= 50;
-            if (health <= 0)
-            {
-                onPlayerDeath?.Invoke(); //if onPlayerDeath is not null, then invoke it
-            }
+            onPlayerDeath?.Invoke(); //if onPlayerDeath is not
         }
     }
 

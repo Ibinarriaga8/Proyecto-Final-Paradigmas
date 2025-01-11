@@ -362,10 +362,13 @@
 "Assets/Packages/SimplePoly - Town Pack/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CarController.cs"
+"Assets/Scripts/Fence.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/PoliceCar.cs"
 "Assets/Scripts/RaceCarTarget.cs"
+"Assets/Scripts/SpeedDebuff.cs"
 -langversion:9.0
 /deterministic
 /optimize+
