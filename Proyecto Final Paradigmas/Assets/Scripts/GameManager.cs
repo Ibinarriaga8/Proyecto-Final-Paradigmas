@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.SearchService;
 using UnityEngine;
@@ -8,30 +9,43 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private int currentLevel = 1; // Nivel actual
     [SerializeField] private const int maxLevel = 5; // Nivel máximo
+    [SerializeField] private const int maxLives = 10; // Número de vidas
     [SerializeField] private Transform spawnPosition; // Posición de spawn del jugador
     [SerializeField] private GameObject player;
     private List<PoliceCar> policeCars = new List<PoliceCar>();
     bool levelFirstTime = true;
+
+
     //Posición de spawn Police
     [SerializeField] private List<Transform> policeSpawnPositions;
+
+
+    [SerializeField] private HeartManager heartManager;
+    [SerializeField] private StarsManager starsManager;
+
 
     private void OnEnable()
     {
         RaceCarTarget.onTargetReached += HandleTargetReached;
         PlayerHealth.onPlayerDeath += RaceCar_onPlayerDeath;
+        PlayerHealth.onGameEnded += HandleGameOver;
+        starsManager.SetLevel(currentLevel);
+        heartManager.UpdateHearts(maxLives);
     }
 
     private void OnDisable()
     {
         RaceCarTarget.onTargetReached -= HandleTargetReached;
         PlayerHealth.onPlayerDeath -= RaceCar_onPlayerDeath;
+        PlayerHealth.onGameEnded -= HandleGameOver;
+
     }
 
 
     private void LoadLevel(int level)
     {
         Debug.Log($"Cargando Nivel {level}");
-
+        starsManager.SetLevel(level);
 
         if (level <= maxLevel)
         {
@@ -45,10 +59,7 @@ public class GameManager : MonoBehaviour
                 
             }
         }
-        else
-        {
-            HandleWin();
-        }
+        
         levelFirstTime = false;
     }
 
@@ -94,18 +105,26 @@ public class GameManager : MonoBehaviour
 
         if (currentLevel > maxLevel)
         {
-            HandleWin();
+            HandleGameOver(true);
         }
         else
         {
             LoadLevel(currentLevel);
         }
     }
-    private void HandleWin()
+    private void HandleGameOver(bool win)
     {
-        Debug.Log("¡Has ganado el juego! 🎉");
-        //Pasar a la siguiente escena:
-        
+        if (win)
+        {
+            Debug.Log("¡Has ganado!");
+            SceneManager.LoadScene(3);
+        }
+        else
+        {
+            Debug.Log("¡Has perdido!");
+            SceneManager.LoadScene(2);
+        }
+
     }
 
     private void SpawnEnemies(int level)
@@ -134,6 +153,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("El jugador ha muerto. Reiniciando nivel...");
         LoadLevel(currentLevel); // Reiniciar el nivel actual
     }
+
 
 }
 

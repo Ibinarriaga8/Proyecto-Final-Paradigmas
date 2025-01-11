@@ -26,6 +26,7 @@ public class RaceCar : MonoBehaviour
         HandleMotor();
         HandleSteering();
         UpdateWheels();
+        HandleResetCar();
     }
 
     private void GetInput()
@@ -79,4 +80,27 @@ public class RaceCar : MonoBehaviour
         wheelTransform.rotation = rot;
         wheelTransform.position = pos;
     }
+    private void HandleResetCar()
+    {
+        if (Input.GetKeyDown(KeyCode.R)) // Detecta si se presiona la tecla "R"
+        {
+            Debug.Log("Reorientando el coche...");
+
+            // Resetea la rotación del coche
+            transform.rotation = Quaternion.identity;
+
+            // Eleva el coche 1 metro sobre el suelo
+            transform.position = new Vector3(transform.position.x, 1f, transform.position.z);
+
+            //Elimina velocidad:
+
+            Rigidbody rb = GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.velocity = Vector3.zero;
+                rb.angularVelocity = Vector3.zero;
+            }
+        }
+    }
+
 }

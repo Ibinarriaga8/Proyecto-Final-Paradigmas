@@ -1,29 +1,47 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     private const int maxHealth = 100;
     [SerializeField] private int health;
-    public int Health { get => health; set { health = value; }  }
+    private int numLives = 10;
 
-    public static event Action onPlayerDeath;
+    public int Health { get => health; set { health = value; OnHealthChanged?.Invoke(health); } }
+
+    public static event Action<int> OnHealthChanged;
+    public static event Action<int> OnLivesChanged; // Nuevo evento para vidas
+    public static event Action onPlayerDeath; 
+    public static event Action<bool> onGameEnded;
+    // Método para resetear la salud del jugador
     public void ResetHealth()
     {
         health = maxHealth;
+        OnHealthChanged?.Invoke(health);
     }
+
+    // Método para que el jugador reciba daño
     public void TakeDamage(int damage)
     {
         health -= damage;
+
+
         if (health <= 0)
         {
-            onPlayerDeath?.Invoke(); //if onPlayerDeath is not
-        }
-    }
+            health = 0;
 
+            numLives--;
+            if (numLives <= 0)
+            {
+                onGameEnded?.Invoke(false); // Notifica que el jugador perdió
+            }
+            OnLivesChanged?.Invoke(numLives);
+            onPlayerDeath?.Invoke(); // Notifica que el jugador murió
+           
+        }
+        OnHealthChanged?.Invoke(health); // Notifica sobre el cambio de salud
+    }
 }
+
+
 
