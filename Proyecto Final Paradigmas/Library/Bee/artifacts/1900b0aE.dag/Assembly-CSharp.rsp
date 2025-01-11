@@ -365,10 +365,13 @@
 "Assets/Scripts/Fence.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Obstacle.cs"
+"Assets/Scripts/ObstacleFactory.cs"
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/PoliceCar.cs"
+"Assets/Scripts/PoliceCarFacotry.cs"
 "Assets/Scripts/RaceCarTarget.cs"
 "Assets/Scripts/SpeedDebuff.cs"
+"Assets/Scripts/SpeedDebuffFactory.cs"
 -langversion:9.0
 /deterministic
 /optimize+

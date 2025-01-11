@@ -12,7 +12,7 @@ public class SpeedDebuff : TriggerObstacle
 
     public override void ApplyEffect(GameObject player)
     {
-        Rigidbody rb = player.GetComponent<Rigidbody>();
+        Rigidbody rb = player.GetComponentInParent<Rigidbody>();
         float playerSpeed = rb.velocity.magnitude;
 
         if (playerSpeed > speedDrop)
@@ -29,7 +29,7 @@ public class SpeedDebuff : TriggerObstacle
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Player collided with Fence");
+            Debug.Log("Player collided with Speed Debuff!");
             ApplyEffect(collision.gameObject);
         }
     }

@@ -65,11 +65,14 @@
     <Compile Include="Assets\Scripts\RaceCarTarget.cs" />
     <Compile Include="Assets\Scripts\CarController.cs" />
     <Compile Include="Assets\Scripts\Fence.cs" />
+    <Compile Include="Assets\Scripts\SpeedDebuffFactory.cs" />
     <Compile Include="Assets\Packages\SimplePoly - Town Pack\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
     <Compile Include="Assets\Packages\SimplePeople\CityPeopleLite\Demo_Scenes\Scripts\CityPeople.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\PoliceCarFacotry.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Packages\SimplePoly - Town Pack\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\Scripts\ObstacleFactory.cs" />
     <Compile Include="Assets\Scripts\SpeedDebuff.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\PoliceCar.cs" />

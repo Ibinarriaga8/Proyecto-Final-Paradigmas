@@ -19,3 +19,8 @@ public abstract class TriggerObstacle : Obstacle
     protected float speedDrop;
     public abstract void OnTriggerEnter(Collider other);
 }
+
+public abstract class ObstacleFactory : MonoBehaviour
+{
+    public abstract Obstacle SpawnObstacle(Vector3 position);
+}
