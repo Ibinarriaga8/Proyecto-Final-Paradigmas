@@ -10,12 +10,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private const int maxLevel = 5; // Nivel máximo
     [SerializeField] private Transform spawnPosition; // Posición de spawn del jugador
     [SerializeField] private GameObject player;
+    [SerializeField] private StarsManager starsManager;
 
 
     private void OnEnable()
     {
         RaceCarTarget.onTargetReached += HandleTargetReached;
         PlayerHealth.onPlayerDeath += RaceCar_onPlayerDeath;
+        starsManager.SetLevel(currentLevel);
     }
 
     private void OnDisable()
@@ -28,8 +30,7 @@ public class GameManager : MonoBehaviour
     private void LoadLevel(int level)
     {
         Debug.Log($"Cargando Nivel {level}");
-
-
+        starsManager.SetLevel(level);
 
         ClearEnemies(); // Eliminar enemigos previos
 
