@@ -85777,7 +85777,7 @@ MonoBehaviour:
   spawnPosition: {fileID: 780431793}
   player: {fileID: 165478701}
   starsManager: {fileID: 1325234085}
-  heartManager: {fileID: 0}
+  heartManager: {fileID: 1178085463}
 --- !u!114 &1752498322
 MonoBehaviour:
   m_ObjectHideFlags: 0

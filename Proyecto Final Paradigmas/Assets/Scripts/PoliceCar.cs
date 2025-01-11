@@ -28,7 +28,6 @@ public class PoliceCar : PhysicalObstacle
     public override void ApplyEffect(GameObject player)
     {
         player.GetComponent<PlayerHealth>().TakeDamage(obstacleDamage);
-        Debug.Log("ME HAN CHOCADO");
     }
 
     public override void OnCollisionEnter(Collision collision)
